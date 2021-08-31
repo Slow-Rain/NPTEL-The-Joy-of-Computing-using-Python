@@ -4,5 +4,7 @@ k = int(input())
 
 lst.sort()
 
-print(lst[k-1], end="")
+a=int(len(lst))
+
+print(lst[a-k], end="")
 
